@@ -10,7 +10,7 @@ document.body.appendChild(renderer.domElement);
 
 // Charger le modèle de l'appartement
 const loader = new GLTFLoader();
-loader.load('D:/Montage 3d/threejs_test/model/scene.gltf', (gltf) => {
+loader.load('model/scene.gltf', (gltf) => {
     scene.add(gltf.scene);
 }, undefined, (error) => {
     console.error('Erreur de chargement du modèle', error);

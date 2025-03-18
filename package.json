@@ -1,0 +1,23 @@
+{
+  "name": "threejs_test",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butachan/model_appart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/butachan/model_appart/issues"
+  },
+  "homepage": "https://github.com/butachan/model_appart#readme",
+  "description": "",
+  "dependencies": {
+    "three": "^0.174.0"
+  }
+}
